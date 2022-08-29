@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./imagens/icone.png">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <title>Quadro de tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Quadro de tarefas</h1>
+        <div class="topo">
+            <input class="input_tarefa" type="text" placeholder="adicione uma nova tarefa">
+            <button class="btn_limpar_tudo">limpar tudo</button>
+            <button class="btn_adicionar_tarefa"><i class="fa fa-plus"></i></button>
+        </div>
+
+        <ul class="lista_tarefas">
+            <!-- tarefas adicionados pelo js aqui -->
+        </ul>
+    </div>
+
+    <div class="janela_edicao">
+        <button class="btn_fechar_edicao">
+            <i class="fa fa-remove fa-2x"></i>
+        </button>
+        <h2 class="id_tarefa_edicao">#00000</h2>
+        <hr>
+        <form>
+            <div class="formulario_linha">
+                <label for="nome">Nome</label>
+                <input class="input_tarefa_edicao" type="text">
+            </div>
+            <div class="formulario_linha">
+                <button class="btn_aplicar_edicao">Salvar</button>
+            </div>
+        </form>
+    </div>
+    <div class="janela_edicao_fundo"></div>
+
+    <div class="senha_correta">
+        <h1 style="margin: 0;">SENHA CORRETA :)</h1>
+        <span>Acesso ao quadro de avisos liberado...</span>
+    </div>
+
+    <div class="fundo">
+        <h1>DESBLOQUEIE PARA TER ACESSO...</h1>
+    </div>
+</body>
+</html>
