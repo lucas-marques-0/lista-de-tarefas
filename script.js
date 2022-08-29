@@ -1,4 +1,4 @@
-alert("Olá Lucas! BOM DIA, espero que tenha dormido bem! esses são seus avisos e tarefas...");
+/* alert("Olá Lucas! BOM DIA, espero que tenha dormido bem! esses são seus avisos e tarefas...");
 let senha = prompt("Só para certificar que realmente é o você, digite a senha...");
 while(senha != "3008"){
     alert("SENHA INCORRETA!");
@@ -13,6 +13,7 @@ if(senha == "3008"){
         mensagem.style.opacity = "0";
     }, 3000);
 }
+*/
 
 let inputNovaTarefa = document.querySelector('.input_tarefa');
 let botaoAdicionarTarefa = document.querySelector('.btn_adicionar_tarefa');
