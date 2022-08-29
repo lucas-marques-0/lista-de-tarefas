@@ -10,35 +10,6 @@ h1{
     text-align: center;
 }
 
-.senha_correta{
-    text-align: center;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 12px;
-    position: fixed;
-    top: 15px;
-    left: 15px;
-    width: 350px;
-    background-color: green;
-    display: none;
-    opacity: 1;
-    transition: opacity .5s linear;
-}
-
-
-.fundo{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background-color: black;
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .container{
     margin: 0 auto;
     width: 100%;
